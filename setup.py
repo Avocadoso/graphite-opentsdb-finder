@@ -9,11 +9,11 @@ setup(
     description          = 'A graphite storage plugin for OpenTSDB.',
     author               = 'Mike Bryant',
     author_email         = 'mike@mikebryant.me.uk',
-    install_requires     = ['django < 1.7', 'django-cacheback', 'graphite-web', 'requests'],
+    install_requires     = ['django < 1.7', 'django-cacheback', 'requests'],
     include_package_data = True,
     test_suite           = 'setuptest.setuptest.SetupTestSuite',
     tests_require        = ['django-setuptest', 'httmock', 'mock'],
-    url                  = 'https://github.com/mikebryant/graphite-opentsdb-finder',
+    url                  = 'https://github.com/Avocadoso/graphite-opentsdb-finder',
     classifiers          = [
         'Development Status :: 3 - Alpha',
         'Environment :: Web Environment',
